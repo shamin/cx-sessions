@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { themes, ThemeContext } from './theme'
-import Home from './components/home';
+// import Home from './components/class/home';
+import Home from './components/function/home';
 
 function App() {
   const [theme, setTheme] = useState(themes.light)
