@@ -1,0 +1,39 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial,  sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.app {
+  margin-top: 100px;
+  width: 400px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+  border-bottom: 1px solid #fff;
+  text-align: left;
+}
+
+.row:last-of-type {
+  border-bottom: none;
+}
+
+.row input{
+  margin-top: 5px;
+  min-height: 30px;
+}
+
+.theme-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
